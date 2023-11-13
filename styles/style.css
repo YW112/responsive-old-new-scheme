@@ -56,12 +56,13 @@ h1, header, .content-1, .content-2, .content-3, .f1, .f2, .f3, .f4, .sidebar {
         text-align: center;
         background-color: rgb(212, 210, 210);
         width: 90vw;
-        height: 2vh;
+        height: 1vh;
         grid-area: h1;
         grid-row-start: 1;
         grid-row-end: 2;
         grid-column-start: 1;
         grid-column-end: 3;
+        align-items: end;
     }
 
     .sidebar {
