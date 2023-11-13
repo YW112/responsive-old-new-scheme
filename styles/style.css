@@ -23,6 +23,8 @@ h1, header, .content-1, .content-2, .content-3, .f1, .f2, .f3, .f4, .sidebar {
         grid-template-rows: repeat(3, minmax(100px, 2fr) );
         grid-template-columns: repeat(2, minmax(100px, 2fr));
         background-color: rgb(212, 210, 210);
+        min-height: 300px;
+        min-width: 300px;
     }
     
     .content {
